@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: #fafafb;
+    --purple:#9a67ea;
+    --blue-light:#04d4c3;
+    --blue-dark:#2a73c2;
+    --green: #2c7b90;
+}
+
+body{
+    height: 97vh;
+    background: linear-gradient(to bottom, var(--purple) , var(--white));
+    color: #fff;
+}
+
+.tarjeta{
+    border: solid 2px var(--white);
+}
